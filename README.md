@@ -1,0 +1,1 @@
+# qa-helping-hand-foundation
