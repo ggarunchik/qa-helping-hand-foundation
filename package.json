@@ -1,0 +1,29 @@
+{
+    "name": "qa-helping-hand-foundation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ggarunchik/qa-helping-hand-foundation.git"
+    },
+    "keywords": [],
+    "author": "Gleb Garunchik",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ggarunchik/qa-helping-hand-foundation/issues"
+    },
+    "homepage": "https://github.com/ggarunchik/qa-helping-hand-foundation#readme",
+    "devDependencies": {
+        "@playwright/test": "^1.25.0",
+        "husky": "^8.0.1",
+        "lint-staged": "^13.0.3",
+        "prettier": "2.7.1"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown"
+    }
+}
