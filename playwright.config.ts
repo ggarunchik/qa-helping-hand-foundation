@@ -1,5 +1,6 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 import { devices } from '@playwright/test';
+require('dotenv').config();
 
 /**
  * Read environment variables from file.
@@ -39,7 +40,18 @@ const config: PlaywrightTestConfig = {
         // baseURL: 'http://localhost:3000',
 
         /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-        trace: 'on-first-retry',
+        video: 'on-first-retry',
+        trace: 'retain-on-failure',
+        screenshot: 'only-on-failure',
+        viewport: { width: 1920, height: 1080 },
+        headless: false,
+        baseURL: process.env.BASE_URL,
+        launchOptions: {
+            logger: {
+                isEnabled: (name, severity) => name === 'browser',
+                log: (name, severity, message, args) => console.log(`${name} ${message}`),
+            },
+        },
     },
 
     /* Configure projects for major browsers */
