@@ -42,7 +42,7 @@ It has only one e2e test. Running test in parallel on web an mobile browsers**
 
 ### Built With
 
-![](https://skills.thijs.gg/icons?i=js,ts&theme=dark)
+![](https://skills.thijs.gg/icons?i=js,ts,nodejs&theme=dark)
 <img src="https://raw.githubusercontent.com/github/explore/60cd2530141f67f07a947fa2d310c482e287e387/topics/playwright/playwright.png" width="60">
 
 <!-- GETTING STARTED -->
