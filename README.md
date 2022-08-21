@@ -2,7 +2,6 @@
 
 ![](https://img.shields.io/badge/Excitement-High-red)
 ![](https://img.shields.io/badge/Maintained-Yes-indigo)
-![](https://img.shields.io/ecologi/trees/ggarunchik)
 ![](https://img.shields.io/github/contributors/ggarunchik/qa-helping-hand-foundation)
 
 <br>
@@ -57,10 +56,9 @@ To get a local copy up and running follow these steps.
 Make sure npm has been installed or install it:
 
 -   npm
-    ````sh
+    ```sh
     npm install npm@latest -g
-    ```![]
-    ````
+    ```
 
 ### Installation
 
